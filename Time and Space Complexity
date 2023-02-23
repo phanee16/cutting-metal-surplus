@@ -1,0 +1,3 @@
+The time complexity of the code is O(n^2) where n is the maximum length of a rod in the given list. This is because the code uses nested loops to iterate over each possible sale length and for each sale length, it iterates over all the rod lengths.
+
+The space complexity of the code is O(1), because the only additional space used is for the variables sale_price_per_rod, profit, total_cuts, costs, and revenues, which are all constant in size regardless of the size of the input list lengths. The profits list used to store the profits is not counted towards space complexity as it is not an auxiliary data structure but part of the output.
