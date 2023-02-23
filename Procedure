@@ -1,0 +1,7 @@
+The procedure in the code is a brute-force approach to calculate the maximum profit that can be earned by cutting and selling metal rods of different lengths. It does so by trying out all possible rod lengths for sale and calculating the profit for each sale length.
+
+For each sale length, the code calculates the number of uniform rods that can be cut from each rod length, taking into account the surplus length that can be used for another rod. It then calculates the total number of cuts required for each rod and the associated costs and revenues.
+
+If the revenues generated from selling the uniform rods are greater than the costs of making the cuts, the profit from that rod is calculated and added to the list of profits. Finally, the maximum profit from all possible sales is returned.
+
+This method is computationally expensive, especially for longer lists of rod lengths, but it is guaranteed to find the optimal solution.
